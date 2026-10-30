@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "74387e87-faa5-405c-bc80-bd436facfcd3")
+	(paper "A4")
+	(title_block
+		(title "Trellis Core")
+		(date "2025-10-25")
+		(rev "v0.1")
+		(company "Protolux Electronics (https://protolux.io)")
+		(comment 1 "Designed by Gus Workman")
+		(comment 3 "Licensed under CERN-OHL-P version 2")
+		(comment 4 "Copyright 2025 Protolux Electronics")
+	)
+	(lib_symbols)
+	(text "TODO: Place your system block diagram here"
+		(exclude_from_sim no)
+		(at 143.51 101.6 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "80440945-2d8e-4deb-a2ff-2dc5d3fb815d")
+	)
+)

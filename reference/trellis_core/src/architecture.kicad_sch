@@ -1,0 +1,431 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "74387e87-faa5-405c-bc80-bd436facfcd3")
+	(paper "A4")
+	(title_block
+		(title "Trellis Core")
+		(date "2025-10-25")
+		(rev "v0.1")
+		(company "Protolux Electronics (https://protolux.io)")
+		(comment 1 "Designed by Gus Workman")
+		(comment 3 "Licensed under CERN-OHL-P version 2")
+		(comment 4 "Copyright 2025 Protolux Electronics")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 30.48 76.2)
+		(uuid "3f11ccab-74ea-454a-99b0-f5f367fcbe94")
+	)
+	(wire
+		(pts
+			(xy 30.48 76.2) (xy 34.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eddbb8f-c638-460a-97d9-b89f53d6d865")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb5e045-e8f3-4118-994d-dcb1cc253ecc")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 161.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9a4977-531c-4cca-a402-ebd8099a0da0")
+	)
+	(wire
+		(pts
+			(xy 143.51 33.02) (xy 161.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372a71a1-f258-4e5c-a03e-3c15e4977642")
+	)
+	(wire
+		(pts
+			(xy 143.51 43.18) (xy 161.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5f484f-a854-41a3-97f4-879229da4d2b")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 161.29 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8087cc8f-1959-4bfa-b8f7-4604390c7230")
+	)
+	(wire
+		(pts
+			(xy 143.51 35.56) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d8ea54-a8ff-4a43-aaf7-4aa344972431")
+	)
+	(sheet
+		(at 34.29 50.8)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "022199ce-6104-4da1-9bbf-d8401f9147e0")
+		(property "Sheetname" "USB"
+			(at 34.29 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 34.29 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0/59ce12e5-a282-4a91-b798-941455026f14"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 26.67)
+		(size 45.72 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79a757f6-dfb5-41f2-81bf-98d5843b272f")
+		(property "Sheetname" "CPU IO"
+			(at 97.79 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu_io.kicad_sch"
+			(at 97.79 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDC0_CLK" output
+			(at 143.51 30.48 0)
+			(uuid "d3f33f9e-b99b-4d71-9d7a-00d48d98ae5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDC0_CMD" bidirectional
+			(at 143.51 33.02 0)
+			(uuid "a691dc64-aed3-4cff-b253-ec4fe4d7261e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDC0_D0" bidirectional
+			(at 143.51 35.56 0)
+			(uuid "cdcad66c-4c1a-44f5-9818-22c8b7f1a738")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDC0_D1" bidirectional
+			(at 143.51 38.1 0)
+			(uuid "b0f8aa08-5704-446b-8e3d-ff6c91092121")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDC0_D2" bidirectional
+			(at 143.51 40.64 0)
+			(uuid "b915bd39-d727-4f99-9c3e-46206131c99e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDC0_D3" bidirectional
+			(at 143.51 43.18 0)
+			(uuid "e63006b8-17f6-4955-ac07-d947783cb5a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0/59ce12e5-a282-4a91-b798-941455026f14"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 27.94)
+		(size 30.48 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dee3082-7f64-4d36-bcff-e81e032ad1b1")
+		(property "Sheetname" "Power"
+			(at 34.29 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 34.29 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0/59ce12e5-a282-4a91-b798-941455026f14"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 71.12)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b8399d2-7f4a-4898-a152-7a99847e44d4")
+		(property "Sheetname" "CPU Core"
+			(at 34.29 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu_core.kicad_sch"
+			(at 34.29 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_MEASURE" input
+			(at 34.29 76.2 180)
+			(uuid "4be991e4-eaf1-4dff-9f30-424ff5522b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0/59ce12e5-a282-4a91-b798-941455026f14"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 26.67)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7dd46a8-9c7d-44f1-a0b7-d6701589cc75")
+		(property "Sheetname" "Storage"
+			(at 161.29 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 161.29 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD_CLK" input
+			(at 161.29 30.48 180)
+			(uuid "f451af8e-b001-4fe9-813a-694b473a93af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CMD" input
+			(at 161.29 33.02 180)
+			(uuid "83da3762-6c16-455d-88d2-10ba9b3cc538")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_D0" input
+			(at 161.29 35.56 180)
+			(uuid "bea5bcfc-28ea-40dc-8137-8419a8360ffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_D1" input
+			(at 161.29 38.1 180)
+			(uuid "05c63fa5-cfd0-405e-ad4e-bf86158c9ee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_D2" input
+			(at 161.29 40.64 180)
+			(uuid "4c78ac5c-30fc-4a42-a9d9-7dde43704e63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_D3" input
+			(at 161.29 43.18 180)
+			(uuid "5ebea59d-f053-497d-8a96-7e09e8eec9cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0/59ce12e5-a282-4a91-b798-941455026f14"
+					(page "8")
+				)
+			)
+		)
+	)
+)

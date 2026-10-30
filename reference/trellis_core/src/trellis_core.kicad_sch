@@ -1,0 +1,406 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "55693af1-c8f0-45f8-81aa-523cc48490c0")
+	(paper "A4")
+	(title_block
+		(title "Trellis Core")
+		(date "2025-10-25")
+		(rev "v0.1")
+		(company "Protolux Electronics (https://protolux.io)")
+		(comment 1 "Designed by Gus Workman")
+		(comment 3 "Licensed under CERN-OHL-P version 2")
+		(comment 4 "Copyright 2025 Protolux Electronics")
+	)
+	(lib_symbols)
+	(text "5"
+		(exclude_from_sim no)
+		(at 123.19 90.17 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#5")
+		)
+		(uuid "061c0ae8-687a-4a3d-8a0e-84aaad88f3a1")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 123.19 105.41 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#8")
+		)
+		(uuid "0c27ea66-de99-457f-85d6-0d9cd12937ab")
+	)
+	(text "Table of Contents"
+		(exclude_from_sim no)
+		(at 35.56 67.31 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 5.08 5.08)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "152b2625-f740-4df4-a7bf-14af48741bab")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 123.19 74.93 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#2")
+		)
+		(uuid "1f73364a-fd4e-46f5-9737-9a9055a6c83e")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 123.19 95.25 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#6")
+		)
+		(uuid "2f43ed7c-b178-4272-b1c6-7139655556c2")
+	)
+	(text "Trellis Core"
+		(exclude_from_sim no)
+		(at 35.56 27.94 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 10.16 10.16)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "46ff9819-fe0c-41cc-a942-25663fe670b4")
+	)
+	(text "A starting point for custom Nerves hardware, based on\nthe Allwinner T113-S4 CPU"
+		(exclude_from_sim no)
+		(at 35.56 46.99 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+		(uuid "5a8ac256-5e94-40c7-bb0b-f128a232cff5")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 123.19 80.01 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#3")
+		)
+		(uuid "6186c1d9-bf12-4483-ad35-15fb6becb3bc")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 123.19 85.09 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#4")
+		)
+		(uuid "96a75842-4899-48c7-9767-1ff869e75de4")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 35.56 74.93 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#2")
+		)
+		(uuid "a39aa452-3688-4579-b834-1b7b620c59a4")
+	)
+	(text "Architecture"
+		(exclude_from_sim no)
+		(at 35.56 80.01 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#3")
+		)
+		(uuid "abb60820-1795-46e7-a605-3213ff5f5cfc")
+	)
+	(text "CPU IO"
+		(exclude_from_sim no)
+		(at 35.56 95.25 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#6")
+		)
+		(uuid "b9e67815-cf53-4baf-9ac4-9194af97e76b")
+	)
+	(text "Storage"
+		(exclude_from_sim no)
+		(at 35.56 105.41 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#8")
+		)
+		(uuid "c105a21a-407c-4d54-8a88-f2fd77a685d5")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 35.56 85.09 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#4")
+		)
+		(uuid "ca2ad1e1-3f6d-4de8-8e9f-473a8fb33e31")
+	)
+	(text "CPU Core"
+		(exclude_from_sim no)
+		(at 35.56 90.17 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#5")
+		)
+		(uuid "d94dae76-092c-499d-8e90-2a94323956fb")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 123.19 100.33 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+			)
+			(justify right)
+			(href "#7")
+		)
+		(uuid "edc5cc42-5455-495f-adfe-6341d95d13c9")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 35.56 100.33 0)
+		(effects
+			(font
+				(face "Helvetica")
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+			(justify left)
+			(href "#7")
+		)
+		(uuid "fd3dbdd2-85fb-4807-8555-114a6b78946a")
+	)
+	(polyline
+		(pts
+			(xy 55.88 80.01) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "46110c70-4dda-422e-9aad-1e5b097d927c")
+	)
+	(polyline
+		(pts
+			(xy 43.18 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "56d8a929-88e5-4959-91db-5772a6ce5881")
+	)
+	(polyline
+		(pts
+			(xy 52.07 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "65589179-b9fa-471f-926f-318c0e9e0d90")
+	)
+	(polyline
+		(pts
+			(xy 45.72 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "74ed9a65-0de2-45c4-9393-2e3b384cafc5")
+	)
+	(polyline
+		(pts
+			(xy 49.53 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "b5e76bef-335e-4258-a7cb-a5bcfccb9754")
+	)
+	(polyline
+		(pts
+			(xy 59.69 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "d32f8635-6e1b-4e5f-8b3e-8410e2377a13")
+	)
+	(polyline
+		(pts
+			(xy 48.26 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "fae19f7a-8e76-40cc-bf3b-5472d648d025")
+	)
+	(sheet
+		(at 194.31 220.98)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e482baf-6a3d-408b-b698-2a3b513f20dd")
+		(property "Sheetname" "Block Diagram"
+			(at 194.31 220.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at 194.31 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 220.98)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59ce12e5-a282-4a91-b798-941455026f14")
+		(property "Sheetname" "Architecture"
+			(at 242.57 220.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "architecture.kicad_sch"
+			(at 242.57 231.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "trellis_core"
+				(path "/55693af1-c8f0-45f8-81aa-523cc48490c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

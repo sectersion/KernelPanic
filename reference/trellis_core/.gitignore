@@ -1,0 +1,10 @@
+# ignore the backup directory
+*-backups/
+
+\#auto_saved_files\#
+
+~*.*.lck
+
+outputs/
+production/
+fabrication-toolkit-options.json
