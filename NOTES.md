@@ -66,3 +66,17 @@
 | LDOB-OUT | Internal LDOB Output Voltage | 1.21 <br>1.455 | 1.25 <br>1.5 | 1.29 <br>1.545 | V |
 | | | 1.746 | 1.8 | 1.854 | V |
 
+## reading AXP313A datasheet
+
+ - will use USB-C @ 5V upto 3A
+ - requires 2 5.1k resistors on CC1/CC2
+ - AXP takes upto 5.5v input, so direct from USB-C to axp works
+
+| Rail   | Voltage Output               |
+|--------|------------------------------|
+| DCDC1  | 3.3V                         |
+| DCDC2  | 0.9V                         |
+| DCDC3  | 1.5V                         |
+| ALDO1  | 1.8V                         |
+| DLDO1  | 3.3V OR 1.8V, needs decision |
+| RTCLDO | 3.3V OR 1.8V, needs decision |
