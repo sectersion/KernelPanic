@@ -10,6 +10,8 @@
 ### reference power design
 ![hello blind people](images/image.png)
 
+4 layer board, In2 is 3v3
+
 ### constraints
 
 | Symbol | Parameter | Min | Max | Unit |
