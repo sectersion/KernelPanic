@@ -52,4 +52,40 @@ Update: SD cards and eMMC both use SMHC, not SPI. Thankfully, there are 3 SMHC i
 
 SMHC0 will be connected to a SD card slot, SMHC1 will be connected to ZDSD08GLGEAG (NAND flash), and SMHC2 will be DNP
 
-### 
+### Debugging
+
+ - Test points EVERYWHERE (I learned my lesson)
+ - UART debug console on UART0
+ - PWR_GOOD leds
+ - PWROK Test point
+ - MicroSD/Storage activity led
+ - 0 ohm resistors for current measurements
+
+
+### Ethernet Subsystem
+
+ on Port E!
+
+ I'm going to go for a 100 megabit speed (which should be plenty) over RMII. I will use a LAN8742A, and include notes here:
+
+ - Kernel manages PHY through "SMI" which means serial management interface. It's a TWI and I need to learn how this works
+ - PHY requires a external crystal/clock ref
+ - Takes 3.3V so that's easy enough
+
+ | Pin Num | Pin Name | Pin Num | Pin Name |
+| :---: | :--- | :---: | :--- |
+| 1 | VDD2A | 13 | MDC |
+| 2 | LED2/nINT/nPME/nINTSEL | 14 | nINT/REFCLKO |
+| 3 | LED1/nINT/nPME/REGOFF | 15 | nRST |
+| 4 | XTAL2 | 16 | TXEN |
+| 5 | XTAL1/CLKIN | 17 | TXD0 |
+| 6 | VDDCR | 18 | TXD1 |
+| 7 | RXD1/MODE1 | 19 | VDD1A |
+| 8 | RXD0/MODE0 | 20 | TXN |
+| 9 | VDDIO | 21 | TXP |
+| 10 | RXER/PHYAD0 | 22 | RXN |
+| 11 | CRS_DV/MODE2 | 23 | RXP |
+| 12 | MDIO | 24 | RBIAS |
+source: from datasheet
+
+Looking at magnetics, I think I'd rather not. So - enter the MagJack.. A beautiful piece of engineering. I found the HANRUN(Zhongshan HanRun Elec) HR911105A, and I should just be able to conenct it directly.

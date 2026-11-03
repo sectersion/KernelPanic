@@ -416,13 +416,21 @@
         "uuid": "aa295b4d-42db-4ab3-b7d9-8d9b1133e8c3"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "L1-3,#PWR5-29,C1-25,J2,IC1,R5-6,SW1,FB1",
     "variants": []
   },
   "sheets": [
     [
       "aa295b4d-42db-4ab3-b7d9-8d9b1133e8c3",
       "KernelPanic"
+    ],
+    [
+      "82c69dd3-61a7-464c-b873-74ed3e7e45a2",
+      "PMS"
+    ],
+    [
+      "dfd0fadf-b0dc-47a4-974b-855bd85c182d",
+      "Ethernet"
     ]
   ],
   "text_variables": {},
